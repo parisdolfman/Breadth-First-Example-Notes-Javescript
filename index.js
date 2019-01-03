@@ -1,6 +1,6 @@
 function find(array, criteriaFn) {  // two parameters for array to be searched through and the criteria to find
  let current = array   // current var represents the current array we are on to keep track
- let next = []    // next ver keeps track of the elements we have yet to go through
+ let next = []    // next var keeps track of the elements we have yet to go through
  while (current) {    // the while loop only executes if there is an element in current and if undefined we'll exit the loop
   if (criteriaFn(current)) {    // means if current satisfies the criteria
   return current     // then we retun it and exit the entire function
